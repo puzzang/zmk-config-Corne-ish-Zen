@@ -35,11 +35,11 @@
 // |       | BTCL| BTN | BTP |     |     |   | LFT | DWN | RGT |     | DEL |      |
 //                     |LSHFT|     | SPC |   | ENT |     |LSHFT|
                         bindings = <
-   &none &kp N1      &kp N2      &kp N3     &kp N4   &kp N5      &kp N6    &kp N7   &kp N8    &kp N9  &kp N0   &none
-   &none &none       &none       &none      &none    &none       &kp none  &kp UP   &none     &none   &kp BSPC &none
-   &none &bt BT_CLR  &bt BT_NXT  &bt BT_PRV &none    &none       &kp LEFT  &kp DOWN &kp RIGHT &none   &kp DEL  &none
-                                 &kp LSHFT  &trans   &kp SPACE   &kp RET   &trans   &kp LSHFT
-                         >;
+   &none &kp N1 &kp N2 &kp N3 &kp N4 &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &none
+   &none &none  &none  &none  &none  &none   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &none
+   &none &bt BT_CLR  &bt BT_NXT  &bt BT_PRV &none       &none         &trans   &trans   &trans &trans    &trans &none
+                          	        &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+                        >;
                 };
 
                 raise_layer {
