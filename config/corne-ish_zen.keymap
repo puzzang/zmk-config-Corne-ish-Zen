@@ -50,9 +50,9 @@
 // |       |     |     |LSHFT|     |     |   | LFT | DWN | RGT |     | DEL |      |
 //                     |ctrl | win | Alt |   | ENT |     | ALT |
                         bindings = <
-   &none  &kp F1 &kp F2 &kp F3 &kp F4 &kp F5   &kp F6 &kp F7  &kp F8 &kp F9 &kp F10 &none 
-   &none  &trans   &none  &trans   &none    &kp F11       &kp F12 &kp EQUAL &none   &none  &kp BSLH &none 
-   &none  &none    &none  &trans   &none    &none       &kp UNDER &kp PLUS  &kp LBRC  &none  &kp PIPE &none 
+   &none  &kp F1  &kp F2 &kp F3    &kp F4 &kp F5    &kp F6   &kp F7    &kp F8     &kp F9 &kp F10  &none 
+   &none  &kp ESC &none  &kp TAB   &none  &kp F11   &kp F12  &kp UP    &none      &none  &kp BSPC &none 
+   &none  &none   &none  &kp LSHFT &none  &none     &kp LEFT &kp DOWN  &kp RIGHT  &none  &kp DEL  &none 
                     	     &kp LCTRL &kp LWIN   &kp LALT     &kp RET   &trans    &kp RALT
                         >;
                 };
