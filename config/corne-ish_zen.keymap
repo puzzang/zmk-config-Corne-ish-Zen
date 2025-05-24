@@ -21,9 +21,9 @@
 // |       |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  |     |
 //                     |LSHFT| LWR | SPC |   | ENT | RSE  | LANG1|
                         bindings = <
-   &none &kp F1 &kp F2 &kp F3 &kp F4 &kp F5   &kp LEFT &kp W  &kp RIGHT     &kp O   &kp P    &none
-   &none &kp 1 &kp 2 &kp 3 &kp 4 &kp 5   &kp A &kp S  &kp D     &kp L   &kp SEMI &none
-   &none &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &none
+   &none &kp F1 &kp F2 &kp F3 &kp F4 &kp F5   &kp LEFT &kp W  &kp RIGHT &kp O   &kp P    &none
+   &none &kp 1  &kp 2  &kp 3  &kp 4  &kp 5    &kp A    &kp S  &kp D     &kp L   &kp SEMI &none
+   &none &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N    &kp M  &kp COMMA &kp DOT &kp FSLH &none
                &kp LSHFT &mo 1 &kp SPACE   &kp ESC &mo 2 &kp RET
                         >;
                 };
